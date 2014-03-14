@@ -1,0 +1,24 @@
+{
+  "name": "hypnos",
+  "version": "0.0.0",
+  "description": "Module for determining if device is sleeping",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msemenistyi/hypnos.git"
+  },
+  "keywords": [
+    "sleeping",
+    "mobile",
+    "background"
+  ],
+  "author": "msemenistyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msemenistyi/hypnos/issues"
+  },
+  "homepage": "https://github.com/msemenistyi/hypnos"
+}
