@@ -1,0 +1,23 @@
+{
+  "name": "hypnos",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/msemenistyi/hypnos",
+  "authors": [
+    "msemenistyi <nikeiwe@gmail.com>"
+  ],
+  "description": "Module for determining if device is sleeping",
+  "keywords": [
+    "\"sleeping\"",
+    "\"mobile\"",
+    "\"background\""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -28,6 +28,37 @@ Ergo, callback will not be executed until browser takes control of the device.
 *Note:* There is also a possibility of performing similar action with help of
 Page Visibility API but it lacks support in most mobile browsers. 
 
+###Usage
+
+Hypnos may be used without any modular system:
+```html
+<script src="./hypnos.js"></script>
+<script>
+	var hypnos = new Hypnos();
+</script>
+```
+
+With help of browserify:
+```js
+	var Hypnos = require('hypnos');
+	var hypnos = new Hypnos();
+```
+
+Or AMD style (RequireJS): 
+```js
+	define(['hypnos'], function(Hypnos))
+	var hypnos = new Hypnos();
+```
+
+The actual usage:
+```js
+	hypnos.isSleeping(function(isSleeping){
+		if (isSleeping){
+			setFireToTheRain();
+		}
+	});
+```
+
 ###API
 - **constructor** (*Object* options) - creates a Hypnos instance. May be called with
 one optional parameters - options object.
