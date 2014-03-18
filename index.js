@@ -14,7 +14,7 @@
 		this.options(opts);
 
 		this._defaults = {
-			duration: 200,
+			delay: 200,
 			error: 200
 		};
 	};
@@ -29,8 +29,8 @@
 
 		setTimeout(function(){
 			var now = new Date();
-			callback(now.valueOf() - startTime.valueOf() - options.duration > options.error);
-		}, options.duration);
+			callback(now.valueOf() - startTime.valueOf() - options.delay > options.error);
+		}, options.delay);
 	};
 
 	Hypnos.prototype.options = function(options) {
