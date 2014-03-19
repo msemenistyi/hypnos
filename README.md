@@ -13,6 +13,9 @@ Hypnos [![Build Status](https://travis-ci.org/msemenistyi/hypnos.png)](https://t
 > bower install hypnos
 
 ##Overview
+
+[Live demo](http://msemenistyi.github.io/hypnos/) - should be checked on mobile.
+
 Hypnos is a module for determination if device is sleeping. This may be used for 
 cases when you need to know for sure, that device on which code is executing 
 is currently working (most probably these are the cases with repetitive actions 
