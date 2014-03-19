@@ -16,3 +16,32 @@ html, body{
 #screen.day{
 	background-color: #F0F49F;
 }
+
+#start-block{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -120px;
+	margin-top: -19px;
+}
+
+#countdown-block{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -95px;
+	margin-top: -10px;
+}
+
+#sb-button{
+	text-align: center;
+	background: #0BB857;
+	height: 40px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+.night{
+	color: white !important;
+}

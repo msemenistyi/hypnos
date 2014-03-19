@@ -1,5 +1,8 @@
 (function(doc, root){
-	var hypnos = new Hypnos();
+	var hypnos = new Hypnos({
+		delay: 2000,
+		error: 1000		
+	});
 
 	var $ = Document.prototype.querySelector.bind(document);
 
@@ -20,7 +23,7 @@
 	function startCountdown(){
 		$el.startBlock.style.display = 'none';
 		$el.countdownBlock.style.display = 'block';
-		var seconds = 1;
+		var seconds = 2;
 
 		$el.countdown.innerHTML = seconds;
 		interval = setInterval(function(){
