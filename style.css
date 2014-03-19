@@ -45,3 +45,25 @@ html, body{
 .night{
 	color: white !important;
 }
+
+#night-block, #day-block{
+	display: none;
+}
+
+.night #night-block{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	font-size: 35px;
+	margin-left: -240px;
+}
+
+.day #day-block{
+	display: block;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	font-size: 35px;
+	margin-left: -150px;
+}
