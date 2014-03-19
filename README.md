@@ -13,7 +13,7 @@ Hypnos [![Build Status](https://travis-ci.org/msemenistyi/hypnos.png)](https://t
 > bower install hypnos
 
 ##Overview
-Hypnos is a module for determinign if device is sleeping. This may be used for 
+Hypnos is a module for determination if device is sleeping. This may be used for 
 cases when you need to know for sure, that device on which code is executing 
 is currently working (most probably these are the cases with repetitive actions 
 taking place or some time-driven queue).
@@ -24,6 +24,9 @@ the call. In case when difference between call time, the time of callback execut
 and the **error** exceeds the **error** value, true is being returned.
 
 Ergo, callback will not be executed until browser takes control of the device.  
+
+The main targets of module were mobile devices but with careful tuning it may
+also work for desktop as well.  
 
 *Note:* There is also a possibility of performing similar action with help of
 Page Visibility API but it lacks support in most mobile browsers. 
