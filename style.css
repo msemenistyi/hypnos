@@ -1,0 +1,18 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#screen{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+#screen.night{
+	background-color: #00004A;
+}
+
+#screen.day{
+	background-color: #F0F49F;
+}
