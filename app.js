@@ -25,14 +25,19 @@
 		$el.countdownBlock.style.display = 'block';
 		var seconds = 2;
 
-		$el.countdown.innerHTML = seconds;
-		interval = setInterval(function(){
-			seconds--;
-			$el.countdown.innerHTML = seconds;
-			if (!seconds) {
-				stopCountdown();
-			}
-		}, 1000);
+		// $el.countdown.innerHTML = seconds;
+		// interval = setInterval(function(){
+		// 	seconds--;
+		// 	$el.countdown.innerHTML = seconds;
+		// 	if (!seconds) {
+		// 		stopCountdown();
+		// 	}
+		// }, 1000);
+		var sum = 0;
+		for (var i = 0; i < 1000000; i++){
+			sum += Math.random();
+		}
+		stopCountdown();
 	}
 
 	function stopCountdown(){
