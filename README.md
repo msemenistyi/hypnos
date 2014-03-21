@@ -77,8 +77,8 @@ callback which will be executed when device is awake. Callback accepts one param
 **isSleeping** *Boolean* which shows if device was sleeping.
 
 ###Options
-- **delay** *Int* - delay of setTimeout function for time checking. **Default** 200.
-- **error** *Int* - the value of error possible for setTimeout. **Default** 200.
+- **delay** *Int* - delay of setTimeout function for time checking. **Default** 1500.
+- **error** *Int* - the value of error possible for setTimeout. **Default** 500.
 
 ##Contributing
 Feel free to open issues and send PRs, though make sure that you create tests
