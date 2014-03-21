@@ -1,6 +1,7 @@
 html, body{
 	margin: 0px;
 	padding: 0px;
+	font-size: 25px;
 }
 
 #screen{
@@ -21,8 +22,8 @@ html, body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -120px;
-	margin-top: -19px;
+	margin-left: -195px;
+	margin-top: -45px;
 }
 
 #countdown-block{
@@ -30,8 +31,8 @@ html, body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -95px;
-	margin-top: -10px;
+	margin-left: -292px;
+	margin-top: -15px;
 }
 
 #sb-button{
@@ -56,7 +57,7 @@ html, body{
 	top: 10%;
 	left: 50%;
 	font-size: 35px;
-	margin-left: -240px;
+	margin-left: -220px;
 }
 
 .day #day-block{
@@ -65,5 +66,11 @@ html, body{
 	top: 10%;
 	left: 50%;
 	font-size: 35px;
-	margin-left: -150px;
+	margin-left: -370px;
+	text-align: center;
+}
+
+#db-note{
+	font-size: 20px;
+	font-weight: bold;
 }
