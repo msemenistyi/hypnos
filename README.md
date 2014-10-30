@@ -1,4 +1,4 @@
-Hypnos [![Build Status](https://travis-ci.org/msemenistyi/hypnos.png)](https://travis-ci.org/msemenistyi/connect-image-optimus)
+Hypnos [![Build Status](https://travis-ci.org/msemenistyi/hypnos.png)](https://travis-ci.org/msemenistyi/hypnos)
 =====
 
 
